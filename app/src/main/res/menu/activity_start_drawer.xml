@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_azkar_icon"
+            android:title="الاذكار" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_adiaa_icon"
+            android:title="الادعية" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_touch_app_black_24dp"
+            android:title="السبحة" />
+
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/rate_the_app"
+                android:icon="@drawable/ic_rate"
+                android:title="قيم التطبيق" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title=" مشاركة التطبيق" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_about"
+                android:title="عن التطبيق" />
+        </menu>
+    </item>
+
+</menu>

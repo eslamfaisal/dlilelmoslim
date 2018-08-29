@@ -1,0 +1,1046 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/back1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:paddingBottom="50dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="30dp"
+    tools:context=".evning">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="10dp">
+
+            <TextView
+                android:id="@+id/txtchare"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:text="اللّهُ لاَ إِلَـهَ إِلاَّ هُوَ الْحَيُّ الْقَيُّومُ لاَ تَأْخُذُهُ سِنَةٌ وَلاَ نَوْمٌ لَّهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الأَرْضِ مَن ذَا الَّذِي يَشْفَعُ عِنْدَهُ إِلاَّ بِإِذْنِهِ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ وَلاَ يُحِيطُونَ بِشَيْءٍ مِّنْ عِلْمِهِ إِلاَّ بِمَا شَاء وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالأَرْضَ وَلاَ يَؤُودُهُ حِفْظُهُمَا وَهُوَ الْعَلِيُّ الْعَظِيمُ.  [آية الكرسى - البقرة 255]."
+                android:textColor="@color/txt"
+                android:textSize="@dimen/dima"
+                tools:ignore="InvalidId" />
+
+            <LinearLayout
+                android:id="@+id/b"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtreapetnumchar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@drawable/bg1_style"
+                    android:gravity="right"  android:paddingRight="2dp"
+                    android:text="1"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/dima" />
+
+                <TextView
+                    android:id="@+id/txtreapetchar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/bg_style"
+                    android:gravity="center"
+                    android:text="التكرار"  android:layout_marginLeft="1dp"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/dima" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txteklass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:text="قُلْ هُوَ ٱللَّهُ أَحَدٌ، ٱللَّهُ ٱلصَّمَدُ، لَمْ يَلِدْ وَلَمْ يُولَدْ، وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ."
+                android:textColor="@color/txt"
+                android:textSize="@dimen/dima" />
+
+            <LinearLayout
+                android:id="@+id/c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtreapetnumeklass"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@drawable/bg1_style"
+                    android:gravity="right"  android:paddingRight="2dp"
+                    android:text="3"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/dima" />
+
+                <TextView
+                    android:id="@+id/txtreapeteklass"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/bg1_style"
+                    android:gravity="center"
+                    android:text="التكرار"   android:layout_marginLeft="1dp"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/dima" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtfalk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ، مِن شَرِّ مَا خَلَقَ، وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ، وَمِن شَرِّ ٱلنَّفَّٰثَٰتِ فِى ٱلْعُقَدِ، وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ."
+                android:textColor="@color/txt"
+                android:textSize="@dimen/dima" />
+
+            <LinearLayout
+                android:id="@+id/d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginBottom="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtreapetnumfalk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@drawable/bg1_style"
+                    android:gravity="right"  android:paddingRight="2dp"
+                    android:text="3"
+                    android:textColor="#fff"
+
+
+                    android:textSize="@dimen/dima" />
+
+                <TextView
+                    android:id="@+id/txtreapetfalk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/bg1_style"
+                    android:gravity="center"
+                    android:text="التكرار"   android:layout_marginLeft="1dp"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/dima" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtnas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:gravity="center"
+                android:text="قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ، مَلِكِ ٱلنَّاسِ، إِلَٰهِ ٱلنَّاسِ، مِن شَرِّ ٱلْوَسْوَاسِ ٱلْخَنَّاسِ، ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ ٱلنَّاسِ، مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ."
+                android:textColor="@color/txt"
+                android:textSize="@dimen/dima" />
+
+            <LinearLayout
+                android:id="@+id/e"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtreapetnumnas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@drawable/bg1_style"
+                    android:gravity="right"  android:paddingRight="2dp"
+                    android:text="3"
+                    android:textColor="#fff"
+
+                    android:textSize="@dimen/dima" />
+
+                <TextView
+                    android:id="@+id/txtreapetnas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/bg1_style"
+                    android:gravity="center"
+                    android:text="التكرار"   android:layout_marginLeft="1dp"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/dima" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtasbhna"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:text="أَمْسَيْـنا وَأَمْسـى المـلكُ لله وَالحَمدُ لله ، لا إلهَ إلاّ اللّهُ وَحدَهُ لا شَريكَ لهُ، لهُ المُـلكُ ولهُ الحَمْـد، وهُوَ على كلّ شَيءٍ قدير ، رَبِّ أسْـأَلُـكَ خَـيرَ ما في هـذهِ اللَّـيْلَةِ وَخَـيرَ ما بَعْـدَهـا ، وَأَعـوذُ بِكَ مِنْ شَـرِّ ما في هـذهِ اللَّـيْلةِ وَشَرِّ ما بَعْـدَهـا ، رَبِّ أَعـوذُبِكَ مِنَ الْكَسَـلِ وَسـوءِ الْكِـبَر ، رَبِّ أَعـوذُ بِكَ مِنْ عَـذابٍ في النّـارِ وَعَـذابٍ في القَـبْر. "
+                android:textColor="@color/txt"
+                android:textSize="@dimen/dima" />
+
+            <LinearLayout
+                android:id="@+id/f"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtreapetnumasbhna"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@drawable/bg1_style"
+                    android:gravity="right"  android:paddingRight="2dp"
+                    android:text="1"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/dima" />
+
+                <TextView
+                    android:id="@+id/txtreapetasbhna"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/bg1_style"
+                    android:gravity="center"
+                    android:text="التكرار"   android:layout_marginLeft="1dp"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/dima" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtalhm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:text="اللّهـمَّ أَنْتَ رَبِّـي لا إلهَ إلاّ أَنْتَ ، خَلَقْتَنـي وَأَنا عَبْـدُك ، وَأَنا عَلـى عَهْـدِكَ وَوَعْـدِكَ ما اسْتَـطَعْـت ، أَعـوذُبِكَ مِنْ شَـرِّ ما صَنَـعْت ، أَبـوءُ لَـكَ بِنِعْـمَتِـكَ عَلَـيَّ وَأَبـوءُ بِذَنْـبي فَاغْفـِرْ لي فَإِنَّـهُ لا يَغْـفِرُ الذُّنـوبَ إِلاّ أَنْتَ ."
+                android:textColor="@color/txt"
+                android:textSize="@dimen/dima" />
+
+            <LinearLayout
+                android:id="@+id/g"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp">
+
+
+                <TextView
+                    android:id="@+id/txtalhmreapetnum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@drawable/bg1_style"
+                    android:gravity="right"  android:paddingRight="2dp"
+                    android:text="1"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/dima" />
+
+                <TextView
+                    android:id="@+id/txtreapetalhm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/bg1_style"
+                    android:gravity="center"
+                    android:text="التكرار"   android:layout_marginLeft="1dp"
+                    android:textColor="#fff"
+
+                    android:textSize="@dimen/dima" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtrdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:text="رَضيـتُ بِاللهِ رَبَّـاً وَبِالإسْلامِ ديـناً وَبِمُحَـمَّدٍ صلى الله عليه وسلم نَبِيّـاً."
+                android:textColor="@color/txt"
+                android:textSize="@dimen/dima" />
+
+            <LinearLayout
+                android:id="@+id/h"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtreapetnumrdit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@drawable/bg1_style"
+                    android:gravity="right"  android:paddingRight="2dp"
+                    android:text="3"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/dima" />
+
+                <TextView
+                    android:id="@+id/txtreapetrdit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/bg1_style"
+                    android:gravity="center"
+                    android:text="التكرار"   android:layout_marginLeft="1dp"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/dima" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtalhmany"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:text="اللّهُـمَّ إِنِّـي أَمسيتُ أُشْـهِدُك ، وَأُشْـهِدُ حَمَلَـةَ عَـرْشِـك ، وَمَلَائِكَتَكَ ، وَجَمـيعَ خَلْـقِك ، أَنَّـكَ أَنْـتَ اللهُ لا إلهَ إلاّ أَنْـتَ وَحْـدَكَ لا شَريكَ لَـك ، وَأَنَّ ُ مُحَمّـداً عَبْـدُكَ وَرَسـولُـك."
+                android:textColor="@color/txt"
+                android:textSize="@dimen/dima" />
+
+            <LinearLayout
+                android:id="@+id/i"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtreapetnumalhmany"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@drawable/bg1_style"
+                    android:gravity="right"  android:paddingRight="2dp"
+                    android:text="4"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/dima" />
+
+                <TextView
+                    android:id="@+id/txtreapetalhmany"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/bg1_style"
+                    android:gravity="center"
+                    android:text="التكرار"   android:layout_marginLeft="1dp"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/dima" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtalhmma"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:text="اللّهُـمَّ ما أَمسى بي مِـنْ نِعْـمَةٍ أَو بِأَحَـدٍ مِـنْ خَلْـقِك ، فَمِـنْكَ وَحْـدَكَ لا شريكَ لَـك ، فَلَـكَ الْحَمْـدُ وَلَـكَ الشُّكْـر. "
+                android:textColor="@color/txt"
+                android:textSize="@dimen/dima" />
+
+            <LinearLayout
+                android:id="@+id/j"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtreapetnumalhmma"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@drawable/bg1_style"
+                    android:gravity="right"  android:paddingRight="2dp"
+                    android:text="1"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/dima" />
+
+                <TextView
+                    android:id="@+id/txtreapetalhmma"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/bg1_style"
+                    android:gravity="center"
+                    android:text="التكرار"   android:layout_marginLeft="1dp"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/dima" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txthaspy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="حَسْبِـيَ اللّهُ لا إلهَ إلاّ هُوَ عَلَـيهِ تَوَكَّـلتُ وَهُوَ رَبُّ العَرْشِ العَظـيم.  "
+                android:textColor="@color/txt"
+                android:textSize="@dimen/dima" />
+
+            <LinearLayout
+                android:id="@+id/k"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtreapetnumhaspy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@drawable/bg1_style"
+                    android:gravity="right"  android:paddingRight="2dp"
+                    android:text="7"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/dima" />
+
+                <TextView
+                    android:id="@+id/txtreapethaspy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/bg1_style"
+                    android:gravity="center"
+                    android:text="التكرار"   android:layout_marginLeft="1dp"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/dima" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtbsm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:text="بِسـمِ اللهِ الذي لا يَضُـرُّ مَعَ اسمِـهِ شَيءٌ في الأرْضِ وَلا في السّمـاءِ وَهـوَ السّمـيعُ العَلـيم.  "
+                android:textColor="@color/txt"
+                android:textSize="@dimen/dima" />
+
+            <LinearLayout
+                android:id="@+id/l"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtreapetnumbsm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@drawable/bg1_style"
+                    android:gravity="right"  android:paddingRight="2dp"
+                    android:text="3"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/dima" />
+
+                <TextView
+                    android:id="@+id/txtreapetbsm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/bg1_style"
+                    android:gravity="center"
+                    android:text="التكرار"   android:layout_marginLeft="1dp"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/dima" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtalhmbek"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:text="اللّهُـمَّ بِكَ أَمْسَـينا وَبِكَ أَصْـبَحْنا، وَبِكَ نَحْـيا وَبِكَ نَمُـوتُ وَإِلَـيْكَ الْمَصِيرُ. "
+                android:textColor="@color/txt"
+                android:textSize="@dimen/dima" />
+
+            <LinearLayout
+                android:id="@+id/m"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtreapetnumalhmbek"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@drawable/bg1_style"
+                    android:gravity="right"  android:paddingRight="2dp"
+                    android:text="1"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/dima" />
+
+                <TextView
+                    android:id="@+id/txtreapetalhmbek"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/bg1_style"
+                    android:gravity="center"
+                    android:text="التكرار"   android:layout_marginLeft="1dp"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/dima" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtasbhnaala"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:text="أَمْسَيْنَا  عَلَى فِطْرَةِ الإسْلاَمِ، وَعَلَى كَلِمَةِ الإِخْلاَصِ، وَعَلَى دِينِ نَبِيِّنَا مُحَمَّدٍ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ، وَعَلَى مِلَّةِ أَبِينَا إبْرَاهِيمَ حَنِيفاً مُسْلِماً وَمَا كَانَ مِنَ المُشْرِكِينَ. "
+                android:textColor="@color/txt"
+                android:textSize="@dimen/dima" />
+
+            <LinearLayout
+                android:id="@+id/n"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtreapetnumasbhnaala"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@drawable/bg1_style"
+                    android:gravity="right"  android:paddingRight="2dp"
+                    android:text="1"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/dima" />
+
+                <TextView
+                    android:id="@+id/txtreapetasbhnaala"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/bg1_style"
+                    android:gravity="center"
+                    android:text="التكرار"   android:layout_marginLeft="1dp"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/dima" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtasbhnaalawabe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="سُبْحـانَ اللهِ وَبِحَمْـدِهِ عَدَدَ خَلْـقِه ، وَرِضـا نَفْسِـه ، وَزِنَـةَ عَـرْشِـه ، وَمِـدادَ كَلِمـاتِـه. "
+                android:textColor="@color/txt"
+                android:textSize="@dimen/dima" />
+
+            <LinearLayout
+                android:id="@+id/o"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtreapetnumasbhnaalawabe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@drawable/bg1_style"
+                    android:gravity="right"  android:paddingRight="2dp"
+                    android:text="3"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/dima" />
+
+                <TextView
+                    android:id="@+id/txtreapetasbhnaalawabe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/bg1_style"
+                    android:gravity="center"
+                    android:text="التكرار"   android:layout_marginLeft="1dp"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/dima" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtalhmafiny"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:text="اللّهُـمَّ عافِـني في بَدَنـي ، اللّهُـمَّ عافِـني في سَمْـعي ، اللّهُـمَّ عافِـني في بَصَـري ، لا إلهَ إلاّ أَنْـتَ."
+                android:textColor="@color/txt"
+                android:textSize="@dimen/dima" />
+
+            <LinearLayout
+                android:id="@+id/p"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtreapetnumalhmafiny"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@drawable/bg1_style"
+                    android:gravity="right"  android:paddingRight="2dp"
+                    android:text="3"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/dima" />
+
+                <TextView
+                    android:id="@+id/txtreapetalhmafiny"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/bg1_style"
+                    android:gravity="center"
+                    android:text="التكرار"   android:layout_marginLeft="1dp"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/dima" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtalhmanyaoth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:text="اللّهُـمَّ إِنّـي أَعـوذُ بِكَ مِنَ الْكُـفر ، وَالفَـقْر ، وَأَعـوذُ بِكَ مِنْ عَذابِ القَـبْر ، لا إلهَ إلاّ أَنْـتَ."
+                android:textColor="@color/txt"
+                android:textSize="@dimen/dima" />
+
+            <LinearLayout
+                android:id="@+id/q"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtreapetnumalhmanyaoth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@drawable/bg1_style"
+                    android:gravity="right"  android:paddingRight="2dp"
+                    android:text="3"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/dima" />
+
+                <TextView
+                    android:id="@+id/txtreapetalhmanyaoth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/bg1_style"
+                    android:gravity="center"
+                    android:text="التكرار"   android:layout_marginLeft="1dp"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/dima" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtalhmanyasalk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:text="
+اللّهُـمَّ إِنِّـي أسْـأَلُـكَ العَـفْوَ وَالعـافِـيةَ في الدُّنْـيا وَالآخِـرَة ، اللّهُـمَّ إِنِّـي أسْـأَلُـكَ العَـفْوَ وَالعـافِـيةَ في ديني وَدُنْـيايَ وَأهْـلي وَمالـي ، اللّهُـمَّ اسْتُـرْ عـوْراتي وَآمِـنْ رَوْعاتـي ، اللّهُـمَّ احْفَظْـني مِن بَـينِ يَدَيَّ وَمِن خَلْفـي وَعَن يَمـيني وَعَن شِمـالي ، وَمِن فَوْقـي ، وَأَعـوذُ بِعَظَمَـتِكَ أَن أُغْـتالَ مِن تَحْتـي."
+                android:textColor="@color/txt"
+                android:textSize="@dimen/dima" />
+
+            <LinearLayout
+                android:id="@+id/r"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtreapetnumalhmanyasalk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@drawable/bg1_style"
+                    android:gravity="right"  android:paddingRight="2dp"
+                    android:text="1"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/dima" />
+
+                <TextView
+                    android:id="@+id/txtreapetalhmanyasalk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/bg1_style"
+                    android:gravity="center"
+                    android:text="التكرار"   android:layout_marginLeft="1dp"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/dima" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtyahy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:text="يَا حَيُّ يَا قيُّومُ بِرَحْمَتِكَ أسْتَغِيثُ أصْلِحْ لِي شَأنِي كُلَّهُ وَلاَ تَكِلْنِي إلَى نَفْسِي طَـرْفَةَ عَيْنٍ."
+                android:textColor="@color/txt"
+                android:textSize="@dimen/dima" />
+
+            <LinearLayout
+                android:id="@+id/s"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtreapetnumyahy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@drawable/bg1_style"
+                    android:gravity="right"  android:paddingRight="2dp"
+                    android:text="3"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/dima" />
+
+                <TextView
+                    android:id="@+id/txtreapetyahy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/bg1_style"
+                    android:gravity="center"
+                    android:text="التكرار"   android:layout_marginLeft="1dp"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/dima" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtalhmalm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:text="اللّهُـمَّ عالِـمَ الغَـيْبِ وَالشّـهادَةِ فاطِـرَ السّماواتِ وَالأرْضِ رَبَّ كـلِّ شَـيءٍ وَمَليـكَه ، أَشْهَـدُ أَنْ لا إِلـهَ إِلاّ أَنْت ، أَعـوذُ بِكَ مِن شَـرِّ نَفْسـي وَمِن شَـرِّ الشَّيْـطانِ وَشِرْكِهِ ، وَأَنْ أَقْتَـرِفَ عَلـى نَفْسـي سوءاً أَوْ أَجُـرَّهُ إِلـى مُسْـلِم."
+                android:textColor="@color/txt"
+                android:textSize="@dimen/dima" />
+
+            <LinearLayout
+                android:id="@+id/t"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtreapetnumalhmalm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@drawable/bg1_style"
+                    android:gravity="right"  android:paddingRight="2dp"
+                    android:text="1"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/dima" />
+
+                <TextView
+                    android:id="@+id/txtreapetalhmalm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/bg1_style"
+                    android:gravity="center"
+                    android:text="التكرار"   android:layout_marginLeft="1dp"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/dima" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtaoth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:text="أَعـوذُ بِكَلِمـاتِ اللّهِ التّـامّـاتِ مِنْ شَـرِّ ما خَلَـق. "
+                android:textColor="@color/txt"
+                android:textSize="@dimen/dima" />
+
+            <LinearLayout
+                android:id="@+id/u"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtreapetnumaoth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@drawable/bg1_style"
+                    android:gravity="right"  android:paddingRight="2dp"
+                    android:text="3"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/dima" />
+
+                <TextView
+                    android:id="@+id/txtreapetaoth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/bg1_style"
+                    android:gravity="center"
+                    android:text="التكرار"   android:layout_marginLeft="1dp"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/dima" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtalhmsly"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:text="اللَّهُمَّ صَلِّ وَسَلِّمْ وَبَارِكْ على نَبِيِّنَا مُحمَّد. "
+                android:textColor="@color/txt"
+                android:textSize="@dimen/dima" />
+
+            <LinearLayout
+                android:id="@+id/v"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtreapetnumalhmsly"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@drawable/bg1_style"
+                    android:gravity="right"  android:paddingRight="2dp"
+                    android:text="10"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/dima" />
+
+                <TextView
+                    android:id="@+id/txtreapetalhmsly"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/bg1_style"
+                    android:gravity="center"
+                    android:text="التكرار"   android:layout_marginLeft="1dp"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/dima" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtlaelah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:text="لَا إلَه إلّا اللهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءِ قَدِيرِ.  "
+                android:textColor="@color/txt"
+                android:textSize="@dimen/dima" />
+
+            <LinearLayout
+                android:id="@+id/w"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtreapetnumlaelah"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@drawable/bg1_style"
+                    android:gravity="right"  android:paddingRight="2dp"
+                    android:text="100"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/dima" />
+
+                <TextView
+                    android:id="@+id/txtreapetlaelah"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/bg1_style"
+                    android:gravity="center"
+                    android:text="التكرار"   android:layout_marginLeft="1dp"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/dima" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtsobhanallah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:text="سُبْحـانَ اللهِ وَبِحَمْـدِهِ.  "
+                android:textColor="@color/txt"
+                android:textSize="@dimen/dima" />
+
+            <LinearLayout
+                android:id="@+id/x"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtreapetnumsobhanallah"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@drawable/bg1_style"
+                    android:gravity="right"  android:paddingRight="2dp"
+                    android:text="100"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/dima" />
+
+                <TextView
+                    android:id="@+id/txtreapetsobhanallah"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/bg1_style"
+                    android:gravity="center"
+                    android:text="التكرار"   android:layout_marginLeft="1dp"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/dima" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtastgfer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:text="أسْتَغْفِرُ اللهَ وَأتُوبُ إلَيْهِ   "
+                android:textColor="@color/txt"
+                android:textSize="@dimen/dima" />
+
+            <LinearLayout
+                android:id="@+id/y"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtreapetnumastgfer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@drawable/bg1_style"
+                    android:gravity="right"  android:paddingRight="2dp"
+                    android:text="100"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/dima" />
+
+                <TextView
+                    android:id="@+id/txtreapetastgfer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/bg1_style"
+                    android:gravity="center"
+                    android:text="التكرار"   android:layout_marginLeft="1dp"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/dima" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="23"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

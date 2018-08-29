@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ahmed.dlilelmoslim">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".athkar"
+            android:label="أذكار"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".adeiaa"
+            android:label="أدعية"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mirinnig"
+            android:label="أذكار الصباح"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".evning"
+            android:label="أذكار المساء"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".wakeup"
+            android:label="أذكار الإستيقاظ"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".sleep"
+            android:label="أذكار النوم"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".beforewodoa"
+            android:label="أذكار الوضوء"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".outsidehome"
+            android:label="أذكار المنزل"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".athan"
+            android:label="أذكار الأذان"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".afterpray"
+            android:label="الأذكار بعد الصلاة"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".backmosque"
+            android:label="أذكار المسجد"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".estikarapray"
+            android:label="دعاء صلاة الإستخارة"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".graive"
+            android:label="دعاء الهم والحزن"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".beforeat"
+            android:label="الدعاء قبل الطعام"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".aftereat"
+            android:label="الدعاء بعد الطعام"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".travilling"
+            android:label="دعاء السفر"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".angery"
+            android:label="الدعاء عند الغضب"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".entermarket"
+            android:label="دعاء دخول السوق"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".splash_screen"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+        <activity
+            android:name=".bank"
+            android:label="عداد الحسنات"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StartActivity"
+            android:label="@string/title_activity_start"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".About"></activity>
+    </application>
+
+</manifest>
